@@ -1,0 +1,77 @@
+:root{
+    --primary-color:#1DA1F2;
+    --secondery-color:#14171A;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.layout {
+    display: grid;
+    grid-template-columns: 275px auto 400px;
+    margin: 0 auto;
+    max-width: 1300px;
+    
+  }
+
+.fa-twitter{
+    color:var(--primary-color);
+      height: 28px;
+      padding: 10px;
+      
+}
+.fa-twitter:hover{
+    background-color: #E1E8ED;
+    border-radius: 50%;
+    height: 50px;
+    padding: 10px;
+}
+  
+  .right-sidebar {
+    position: fixed;
+    width: 400px;
+    padding-left:30px;
+    
+  }
+  .left-sidebar{
+    width:275px;
+  }
+
+
+/*search bar*/
+.search{
+   margin-top: 10px;
+}
+.fa-magnifying-glass{
+    color:#657786;
+    padding:10px;
+    min-width: 40px;
+    position: absolute;
+}
+
+.search-input{
+    width: 100%;
+    padding: 12px;
+    background-color: #E1E8ED;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+
+  
+}
+::placeholder{
+    padding-left:30px;
+    font-size: medium;
+    font-weight: bold;
+}
+  
+  
+
+  
